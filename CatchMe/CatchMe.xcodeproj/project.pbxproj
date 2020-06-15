@@ -13,6 +13,7 @@
 		0C1F5ACE249814ED00B1CD58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F5ACC249814ED00B1CD58 /* Main.storyboard */; };
 		0C1F5AD0249814EF00B1CD58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F5ACF249814EF00B1CD58 /* Assets.xcassets */; };
 		0C1F5AD3249814EF00B1CD58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F5AD1249814EF00B1CD58 /* LaunchScreen.storyboard */; };
+		0C1F5ADB249824FE00B1CD58 /* CatchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F5ADA249824FE00B1CD58 /* CatchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0C1F5ACF249814EF00B1CD58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C1F5AD2249814EF00B1CD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C1F5AD4249814EF00B1CD58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1F5ADA249824FE00B1CD58 /* CatchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0C1F5AC8249814ED00B1CD58 /* SceneDelegate.swift */,
 				0C1F5ACA249814ED00B1CD58 /* ViewController.swift */,
 				0C1F5ACC249814ED00B1CD58 /* Main.storyboard */,
+				0C1F5ADA249824FE00B1CD58 /* CatchButton.swift */,
 				0C1F5ACF249814EF00B1CD58 /* Assets.xcassets */,
 				0C1F5AD1249814EF00B1CD58 /* LaunchScreen.storyboard */,
 				0C1F5AD4249814EF00B1CD58 /* Info.plist */,
@@ -141,6 +144,7 @@
 				0C1F5ACB249814ED00B1CD58 /* ViewController.swift in Sources */,
 				0C1F5AC7249814ED00B1CD58 /* AppDelegate.swift in Sources */,
 				0C1F5AC9249814ED00B1CD58 /* SceneDelegate.swift in Sources */,
+				0C1F5ADB249824FE00B1CD58 /* CatchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
