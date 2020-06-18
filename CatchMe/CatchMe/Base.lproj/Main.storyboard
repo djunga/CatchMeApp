@@ -22,18 +22,21 @@
                                 <state key="normal" title="CATCH ME IF YOU CAN">
                                     <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDownButton:" destination="BYZ-38-t0r" eventType="touchDown" id="KHL-nb-78d"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mainButton" destination="EI3-Bb-Nhd" id="HmC-wd-I3C"/>
+                        <outlet property="mainButton" destination="EI3-Bb-Nhd" id="tdF-rF-UuA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43" y="165"/>
+            <point key="canvasLocation" x="3" y="-466"/>
         </scene>
     </scenes>
 </document>
