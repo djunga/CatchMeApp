@@ -11,16 +11,35 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    
+    @IBOutlet weak var cageButton: UIButton!
+    
+    @IBOutlet weak var buttoncoordinatesLabel: UILabel!
+    
+    
     @IBOutlet weak var mainButton: UIButton!
-    var newX:Int = 0
-    var newY:Int = 0
+    var hamX:Int = 0
+    var hamY:Int = 0
+    var cageX:Int = 0
+    var cageY:Int = 0
     @IBAction func touchDownButton(_ sender: UIButton) {
-        newX = Int.random(in: 30..<350)
-        newY = Int.random(in: 30..<630)
-        sender.center = .init(x: newX, y: newY)
+        hamX = Int.random(in: 30..<350)
+        hamY = Int.random(in: 30..<630)
+        sender.center = .init(x: hamX, y: hamY)
+        buttoncoordinatesLabel.text = "X: \(hamX), Y: \(hamY)"
+        //myButton.frame.size.height
+        if(\\)
     }
 
     override func viewDidLoad() {
+        hamX = Int.random(in: 80..<250)
+        hamY = Int.random(in: 80..<500)
+        cageX = hamX + 90
+        cageY = hamY + 80
+        mainButton.center = .init(x: hamX, y: hamY)
+        cageButton.center = .init(x: cageX, y: cageY)
+        buttoncoordinatesLabel.text = "X: \(hamX), Y: \(hamY)"
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
