@@ -12,20 +12,14 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var mainButton: UIButton!
-    //var bt = CatchButton()
+    var newX:Int = 0
+    var newY:Int = 0
     @IBAction func touchDownButton(_ sender: UIButton) {
-        sender.center = .init(x: 30, y: 40)
-//        mainButton!.xPos = Int.random(in: 1..<100)
-//        mainButton!.yPos = Int.random(in: 1..<100)
+        newX = Int.random(in: 30..<350)
+        newY = Int.random(in: 30..<630)
+        sender.center = .init(x: newX, y: newY)
     }
-    
-//    override func touchDown(touches: NSSet!, withEvent event: UIEvent!) {
-//        var touch : UITouch! = touches.anyObject() as UITouch
-//
-//    location = touch.locationInView(self.view)
-//
-//    Person.center = location
-//}
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
