@@ -38,6 +38,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H8-dw-i7X">
+                                <rect key="frame" x="162" y="28" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Again?"/>
+                                <connections>
+                                    <action selector="playAgainTrigger:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W4U-G4-iiG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FH8-mS-nBN">
+                                <rect key="frame" x="68" y="108" width="183" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,11 +61,13 @@
                         <outlet property="buttoncoordinatesLabel" destination="B0r-bG-wvj" id="zxD-sB-Cym"/>
                         <outlet property="cageButton" destination="Ip4-am-Y04" id="nRq-TQ-9d2"/>
                         <outlet property="mainButton" destination="EI3-Bb-Nhd" id="tdF-rF-UuA"/>
+                        <outlet property="playAgainButton" destination="3H8-dw-i7X" id="wag-Yg-IaH"/>
+                        <outlet property="scoreLabel" destination="FH8-mS-nBN" id="C0h-yX-eXG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73.913043478260875" y="-3616.3043478260875"/>
+            <point key="canvasLocation" x="763.768115942029" y="-3906.521739130435"/>
         </scene>
     </scenes>
     <resources>
